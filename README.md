@@ -218,7 +218,7 @@ server {
 #}
 ```
 
-◽ Go to `cd sites-available/` and do a soft link to seguro ➡️ `ln -s /etc/nginx/sites-available/seguro seguro` ➡️ This is made so you can activate the configuration ❗
+◽ Go to `cd sites-enable/` and do a soft link to seguro ➡️ `ln -s /etc/nginx/sites-available/seguro seguro` ➡️ This is made so you can activate the configuration ❗
 
 ◽ In the end Restart nginx ➡️ `systemctl restart nginx`
 
